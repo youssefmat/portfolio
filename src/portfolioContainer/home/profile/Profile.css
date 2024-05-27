@@ -1,0 +1,217 @@
+/* Barre de navigation */
+.navbar-container {
+    background-image: url('../../../assets/home/bg.jpg');
+    color: white;
+    padding: 10px;
+    padding-left: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-around;
+}
+.menu-items{
+    display: none;
+    height: 310px;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 200px;
+    background: rgb(0, 0,0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+
+}
+.menu-items a {
+    color: white;
+    text-decoration: none;
+
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar-items a {
+    color: white;
+    text-decoration: none;
+
+    
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: rgb(236, 85, 20);
+}
+
+.nav-link.active {
+    color: rgb(236, 85, 20);
+}
+.nav-link {
+    margin-right: 10px;
+    margin-top: 16px;  
+}
+.menu-button{
+    margin-top: 14px;
+    font-size: 30px;
+    display: none;
+}
+.menu-button-close{
+    font-size: 23px;
+}
+.logo-link {
+    font-size: 50px;
+    font-family: "Sofia", sans-serif;
+}
+/* ---------- */
+.profile-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    padding-top: 60px;
+}
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    /* des mes ajours  */
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.profile-details-name{
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+.profile-details-role h1 {
+    font-size: 40px;
+    font-family: "cursive";
+}
+.higlighted-text{
+    color: (--white);
+}
+.highlighted-text{
+    color: var(--dark-orange);
+}
+.profile-role-tagline{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+.profile-options .highlighted-btn{
+    margin: 0 0 0 28px;
+}
+.profile-options .highlighted-btn:hover{
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.profile-picture-backround{
+    height: 92%;
+    width: 92%;
+    background-image: url("../../../assets/home/photoyo.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+.profile-picture-backround:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+.colz .colz-icon i{
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+}
+.colz .colz-icon i:hover{
+    transform: scale(1.5);
+}
+@media screen and (max-width: 1110px) {
+    .profile-picture{
+        margin: 0 0px 0 80px;
+    }
+    .profile-details-name{
+        font-size: 12px;
+    }
+    .profile-details-role .primary-text {
+        width: 12px;
+    }
+    .profile-options .btn {
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+    
+}
+@media screen and (max-width: 910px){
+    .profile-picture{
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+}
+@media screen and (max-width: 810px){
+    .profile-picture{
+        margin: 0 !important;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .profile-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-details{
+        margin: 25px 0 0;
+    }
+    .profile-options .highlighted-btn{
+        margin: 0 !important;
+    }
+    .profile-options, .profile-details-role{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 375px){
+    .profile-picture{
+        height: 275px;
+        width: 275px;
+        margin-top: -90%;
+    }
+    .profile-details{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .navbar-items .nav-link{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+    .menu-items{
+        display: block;
+    }
+
+}
