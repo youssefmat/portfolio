@@ -232,7 +232,7 @@ const NavbarVertical = () => {
                         <div class="projet-box">
                             <img src={projet2} alt=""/>
                             <div class="text">
-                                <h2>Application Mobile</h2>
+                                <h2>Application Web</h2>
                                 <p>I developed a monolithic web application for email management.
                                     For the backend, I used Java/JEE and MySQL for data management and storage.
                                     The Postfix mail server was integrated for email handling. For the frontend,
