@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.378d43b1.css",
+    "main.js": "/portfolio/static/js/main.700879e6.js",
+    "static/media/photoyo.png": "/portfolio/static/media/photoyo.aea8f70be7905c1d2b5c.png",
+    "static/media/cv-youssefMathouri.pdf": "/portfolio/static/media/cv-youssefMathouri.a937cd8fee2290502434.pdf",
+    "static/media/projet1.png": "/portfolio/static/media/projet1.7c52dc8cbe1d5c255aab.png",
+    "static/media/Poppins-Thin.ttf": "/portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/mailz.jpeg": "/portfolio/static/media/mailz.d13d5e32cbc73884b526.jpeg",
+    "static/media/pr1.jpeg": "/portfolio/static/media/pr1.4c8da80131e7531e3467.jpeg",
+    "static/media/projet3.png": "/portfolio/static/media/projet3.ed039a302cabed060116.png",
+    "static/media/projet4.png": "/portfolio/static/media/projet4.9a2322c83125f2a3528e.png",
+    "static/media/projet2.png": "/portfolio/static/media/projet2.8e9ef59d3ecc0915fded.png",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.d580cd375921d13ae60d.jpg",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.5bf0a7b8a4a5250aa83a.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.378d43b1.css.map": "/portfolio/static/css/main.378d43b1.css.map",
+    "main.700879e6.js.map": "/portfolio/static/js/main.700879e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.378d43b1.css",
+    "static/js/main.700879e6.js"
+  ]
+}
